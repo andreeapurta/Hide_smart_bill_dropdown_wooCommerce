@@ -2,7 +2,7 @@
 
 Platform: Wordpress
 
-Plugins: WooCommerce, Smart Bill
+Plugins: <a href="https://woocommerce.com" target="_blank">WooCommerce</a>, <a href="https://www.smartbill.ro" target="_blank">Smart Bill</a>
 
 Situation: You have a free product and you don't want to show the smart bill PF/PJ dropdown
 
