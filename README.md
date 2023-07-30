@@ -17,7 +17,7 @@ Platformă: Wordpress
 
 Module: <a href="https://woocommerce.com" target="_blank">WooCommerce</a>, <a href="https://www.smartbill.ro" target="_blank">Smart Bill</a>
 
-Situație: În magazinul tău, ai produse fără cost și dorești să ascunzi câmpul "Tip client" adăugat de SmartBill pentru acel produs gratis.
+Situație: În magazinul tău, ai un produs fără cost și dorești să ascunzi câmpul "Tip client" adăugat de SmartBill pentru acel produs gratis.
 
 ![image](https://github.com/andreeapurta/Hide_smart_bill_dropdown_wooCommerce/assets/67948869/139eece9-417d-4ee5-8b3b-6c198b39c80a)
 
