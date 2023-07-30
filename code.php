@@ -1,17 +1,17 @@
 <?php
 
 /* Hide smart bill dropdown for specific product */
-function hide_postal_code_field_css()
+function hide_smart_bill()
 {
   $target_product_id = 6983; // Your product ID
-  $product_found = false;
+  $found = false;
   foreach (WC()->cart->get_cart() as $cart_item) {
     if ($cart_item['product_id'] != $target_product_id) {
-      $product_found = true;
+      $found = true;
       break;
     }
   }
-  if ($product_found) {
+  if ($found) {
 ?>
     <style>
       #smartbill_billing_type_field {
@@ -21,4 +21,7 @@ function hide_postal_code_field_css()
 <?php
   }
 }
+
+add_action( 'woocommerce_checkout_after_customer_details', 'hide_smart_bill' );
 ?>
+
