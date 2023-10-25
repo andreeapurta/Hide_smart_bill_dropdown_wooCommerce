@@ -1,4 +1,4 @@
-# Hide Smart Bill dropdown
+# Hide Smart Bill dropdown - Smart bill code improvement
 
 Platform: Wordpress
 
